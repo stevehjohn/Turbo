@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turbo.Framkework", "Turbo.Framkework\Turbo.Framkework.csproj", "{19F1D894-7304-425E-B4A4-EB9BC05CFA86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turbo.Framework", "Turbo.Framework\Turbo.Framework.csproj", "{28A69F6F-9661-4AD0-932F-A7E06CFAB56C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{19F1D894-7304-425E-B4A4-EB9BC05CFA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19F1D894-7304-425E-B4A4-EB9BC05CFA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19F1D894-7304-425E-B4A4-EB9BC05CFA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19F1D894-7304-425E-B4A4-EB9BC05CFA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A69F6F-9661-4AD0-932F-A7E06CFAB56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A69F6F-9661-4AD0-932F-A7E06CFAB56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A69F6F-9661-4AD0-932F-A7E06CFAB56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A69F6F-9661-4AD0-932F-A7E06CFAB56C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

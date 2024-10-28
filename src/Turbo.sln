@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turbo.Framework", "Turbo.Framework\Turbo.Framework.csproj", "{2D1E79BC-A9E6-4977-A4A8-3844804B8C6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turbo.DesktopHost", "Turbo.DesktopHost\Turbo.DesktopHost.csproj", "{CD036AA3-A0A8-4529-AAF2-1C5DAE3ADA5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{2D1E79BC-A9E6-4977-A4A8-3844804B8C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D1E79BC-A9E6-4977-A4A8-3844804B8C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D1E79BC-A9E6-4977-A4A8-3844804B8C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD036AA3-A0A8-4529-AAF2-1C5DAE3ADA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD036AA3-A0A8-4529-AAF2-1C5DAE3ADA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD036AA3-A0A8-4529-AAF2-1C5DAE3ADA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD036AA3-A0A8-4529-AAF2-1C5DAE3ADA5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

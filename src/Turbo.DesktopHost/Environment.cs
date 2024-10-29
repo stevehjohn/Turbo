@@ -51,8 +51,10 @@ public class Environment : Game
 
         _spriteBatch.Begin();
         
-        _spriteBatch.DrawString(_font, "┌───────┬───────┬───────┐", new Vector2(30, 0), Color.White);
+        _spriteBatch.DrawString(_font, "├───────┼───────┼───────┤", new Vector2(30, 30), Color.White);
         
+        _spriteBatch.DrawString(_font, "12345", new Vector2(30, 80), Color.White);
+
         _spriteBatch.End();
 
         base.Draw(gameTime);

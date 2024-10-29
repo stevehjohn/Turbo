@@ -51,7 +51,7 @@ public class Environment : Game
 
         _spriteBatch.Begin();
         
-        _spriteBatch.DrawString(_font, "\u250c\u2510", new Vector2(0, 0), Color.White);
+        _spriteBatch.DrawString(_font, "┌───────┬───────┬───────┐", new Vector2(30, 0), Color.White);
         
         _spriteBatch.End();
 

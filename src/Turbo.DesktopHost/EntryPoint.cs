@@ -1,6 +1,4 @@
-﻿using Turbo.Framework;
-
-namespace Turbo.DesktopHost;
+﻿namespace Turbo.DesktopHost;
 
 public static class EntryPoint
 {

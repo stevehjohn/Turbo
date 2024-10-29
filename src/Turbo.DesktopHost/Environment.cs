@@ -4,13 +4,15 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Turbo.DesktopHost;
 
-public class Game1 : Game
+public class Environment : Game
 {
+    private SpriteFont _font;
+    
     private GraphicsDeviceManager _graphics;
     
     private SpriteBatch _spriteBatch;
 
-    public Game1()
+    public Environment()
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
@@ -19,8 +21,8 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
-
+        Window.Title = "Turbo";
+        
         base.Initialize();
     }
 
@@ -28,7 +30,7 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-        // TODO: use this.Content to load your game content here
+        _font = Content.Load<SpriteFont>("font");
     }
 
     protected override void Update(GameTime gameTime)

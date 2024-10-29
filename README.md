@@ -1,3 +1,3 @@
 # Turbo
 
-A code editor inspired by the look of Turbo Pascal.
+A code editor inspired by the look and feel of Turbo Pascal.

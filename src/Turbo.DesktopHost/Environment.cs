@@ -15,7 +15,9 @@ public class Environment : Game
     public Environment()
     {
         _graphics = new GraphicsDeviceManager(this);
-        Content.RootDirectory = "Content";
+     
+        Content.RootDirectory = "_Content";
+        
         IsMouseVisible = true;
     }
 
@@ -45,9 +47,13 @@ public class Environment : Game
 
     protected override void Draw(GameTime gameTime)
     {
-        GraphicsDevice.Clear(Color.CornflowerBlue);
+        GraphicsDevice.Clear(Color.Black);
 
-        // TODO: Add your drawing code here
+        _spriteBatch.Begin();
+        
+        _spriteBatch.DrawString(_font, "\u250c\u2510", new Vector2(0, 0), Color.White);
+        
+        _spriteBatch.End();
 
         base.Draw(gameTime);
     }

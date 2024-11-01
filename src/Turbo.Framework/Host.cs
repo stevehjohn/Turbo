@@ -13,15 +13,19 @@ public class Host
         _width = width;
         
         _height = height;
-        
-        Reset();
+                
+        _buffer = new char[_width, _height];
+
+        Clear();
     }
 
-    private void Reset()
+    public void Resize(int width, int height)
     {
-        _buffer = new char[_width, _height];
+        _width = width;
+
+        _height = height;
         
-        Clear();
+        _buffer = new char[_width, _height];
     }
 
     private void Clear()

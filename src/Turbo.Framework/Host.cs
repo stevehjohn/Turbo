@@ -7,7 +7,7 @@ public class Host
     private int _height;
 
     private char[,] _buffer;
-    
+
     public Host(int width, int height)
     {
         _width = width;
